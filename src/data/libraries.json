@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Luga Router",
+    "url": "https://github.com/lugajs/luga-router",
+    "category": "routing",
+    "description": "Pure routing and nothing else. Highly customizable. Unfinished docs at the moment"
+  },
+  {
+    "name": "Crossroads.js",
+    "url": "https://millermedeiros.github.io/crossroads.js/",
+    "category": "routing",
+    "description": "Client-side routing, features-rich"
+  },
+  {
+    "name": "Director",
+    "url": "https://github.com/flatiron/director",
+    "category": "routing",
+    "description": "Isomorphic router"
+  },
+  {
+    "name": "page",
+    "url": "https://github.com/visionmedia/page.js",
+    "category": "routing",
+    "description": "Micro client-side router"
+  },
+  {
+    "name": "Luga Data",
+    "url": "http://lugajs.org/docs/index.htm#data/index",
+    "category": "data and binding",
+    "description": "Data-centric, designed to retrieve data from diverse sources"
+  },
+  {
+    "name": "Rivets.js",
+    "url": "http://rivetsjs.com/",
+    "category": "data and binding",
+    "description": "Data binding + templating inside a single package"
+  },
+  {
+    "name": "Taffy DB",
+    "url": "http://taffydb.com/",
+    "category": "data",
+    "description": "Fascinating idea, brings database features into JavaScript"
+  },
+  {
+    "name": "Hasher",
+    "url": "https://github.com/millermedeiros/Hasher",
+    "category": "history",
+    "description": "Lightweight but powerful. Integrates well with Crossroads.js"
+  },
+  {
+    "name": "Lodash",
+    "url": "https://lodash.com/",
+    "category": "utils",
+    "description": "A more modern alternative to Underscore.js. Much larger in size"
+  },
+  {
+    "name": "Underscore.js",
+    "url": "http://underscorejs.org/",
+    "category": "utils",
+    "description": "A classic. Nowadays I would consider Lodash instead"
+  },
+  {
+    "name": "Handlebarsjs",
+    "url": "http://handlebarsjs.com/",
+    "category": "templating",
+    "description": "Powerful, popular yet massive"
+  },
+  {
+    "name": "Mustache.js",
+    "url": "https://github.com/janl/mustache.js",
+    "category": "templating",
+    "description": "Makes Mustache syntax available in JavaScript"
+  }
+]

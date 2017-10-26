@@ -1,5 +1,5 @@
 (function(){
-	"use strict";
+	//"use strict";
 
 	luga.namespace("jsBack");
 
@@ -17,15 +17,21 @@
 		return row;
 	};
 
-	var rssDs = new luga.data.Rss2Dataset({
+	var rssDataset = new luga.data.Rss2Dataset({
 		uuid: "feedDs",
 		url: "feed/heshootshescoores.com.xml",
 		formatter: feedDateFormatter
 	});
 
+	libsDataset = new luga.data.JsonDataSet({
+		uuid: "libsDs",
+		url: "data/libraries.json"
+	});
+
 	jQuery(document).ready(function(){
 
-		rssDs.loadData();
+		rssDataset.loadData();
+		libsDataset.loadData();
 
 		var switcher = new jsBack.SectionSwitcher({
 			sectionSelector: "#content section",

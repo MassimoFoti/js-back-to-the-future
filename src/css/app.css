@@ -1,13 +1,25 @@
+body {
+	/* Always show vertical scrollbar */
+	overflow-y: scroll;
+}
+
+caption {
+	caption-side: top;
+}
+
 #content {
-	max-width: 800px;
-	min-width: 400px;
+	max-width: 60rem;
+	min-width: 30rem;
 }
 
 section {
 	display: none;
 }
 
-td.dateCol {
-	text-align: center;
-	width: 160px;
+td.catCol {
+	white-space: nowrap;
+}
+
+#home img {
+	padding-top: 1.25rem;
 }

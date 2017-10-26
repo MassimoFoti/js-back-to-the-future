@@ -37,8 +37,32 @@
 			<caption>{{description}}</caption>
 			{{#each items}}
 			<tr>
-				<td class="dateCol">{{pubDate}}</td>
+				<td class="catCol">{{pubDate}}</td>
 				<td><a href="{{link}}">{{title}}</a></td>
+			</tr>
+			{{/each}}
+		</table>
+
+	</script>
+
+	<script id="libsTemplate" type="text/x-handlebars-template">
+
+		<table class="table table-bordered table-striped">
+			<caption>JavaScript libraries worth a better look</caption>
+			<th>
+				<a href="#" data-lugaregion-sort="name">Name</a>
+			</th>
+			<th>
+				<a href="#" data-lugaregion-sort="category">Category</a>
+			</th>
+			<th>
+				Description
+			</th>
+			{{#each entities}}
+			<tr>
+				<td><a href="{{url}}">{{name}}</a></td>
+				<td class="catCol">{{category}}</td>
+				<td>{{description}}</td>
 			</tr>
 			{{/each}}
 		</table>
@@ -64,21 +88,17 @@
 	</section>
 
 	<section id="hockey-news">
-		<div>
-			News from <a href="http://heshootshescoores.com/">HeShootsHeScoores</a>
-		</div>
-		<div>
-			<!-- Databinding with Luda Data -->
-			<div data-lugaregion="true"
-				 data-lugaregion-datasource-uuid="feedDs"
-				 data-lugaregion-template-id="rssTemplate"></div>
-		</div>
+		<!-- Databinding with Luga Data -->
+		<div data-lugaregion="true"
+			 data-lugaregion-datasource-uuid="feedDs"
+			 data-lugaregion-template-id="rssTemplate"></div>
 	</section>
 
 	<section id="libraries">
-		<div class="row">
-			libraries
-		</div>
+		<!-- Databinding with Luga Data -->
+		<div data-lugaregion="true"
+			 data-lugaregion-datasource-uuid="libsDs"
+			 data-lugaregion-template-id="libsTemplate"></div>
 	</section>
 
 	<footer class="container-fluid row">
