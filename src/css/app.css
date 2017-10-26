@@ -1,3 +1,13 @@
+#content {
+	max-width: 800px;
+	min-width: 400px;
+}
+
 section {
 	display: none;
+}
+
+td.dateCol {
+	text-align: center;
+	width: 160px;
 }

@@ -16,8 +16,9 @@
 
 	<!-- Bootstrap 4 -->
 	<script>
-		window.Tether = function(){
-			throw new Error("Bootstrap tried to use Tether. But it's missing");
+		// Temp patch for beta version?
+		window.Popper = function(){
+			throw new Error("Bootstrap tried to use Popper.js. But it's missing");
 		};
 	</script>
 	<link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.min.css"/>
@@ -29,34 +30,54 @@
 	<script src="js/Controller.js"></script>
 	<script src="js/SectionSwitcher.js"></script>
 
+	<!-- Handlebars template to be used by Luga Data -->
+	<script id="rssTemplate" type="text/x-handlebars-template">
+
+		<table class="table table-bordered table-striped">
+			<caption>{{description}}</caption>
+			{{#each items}}
+			<tr>
+				<td class="dateCol">{{pubDate}}</td>
+				<td><a href="{{link}}">{{title}}</a></td>
+			</tr>
+			{{/each}}
+		</table>
+
+	</script>
+
 </head>
 <body>
 
-<div class="container-fluid">
+<div id="content" class="container-fluid">
+
 	<nav class="nav">
 		<a class="nav-link active" href="#home">Home</a>
 		<a class="nav-link" href="#hockey-news">Hockey News</a>
-		<a class="nav-link" href="#libs">Libraries</a>
+		<a class="nav-link" href="#libraries">Libraries</a>
 	</nav>
-</div>
-
-<div class="container-fluid">
 
 	<section id="home">
+		<!-- Static content -->
 		<div class="row">
 			<img src="img/oreilly-frontend.jpg" width="400">
 		</div>
 	</section>
 
 	<section id="hockey-news">
-		<div class="row">
-			hockey-news
+		<div>
+			News from <a href="http://heshootshescoores.com/">HeShootsHeScoores</a>
+		</div>
+		<div>
+			<!-- Databinding with Luda Data -->
+			<div data-lugaregion="true"
+				 data-lugaregion-datasource-uuid="feedDs"
+				 data-lugaregion-template-id="rssTemplate"></div>
 		</div>
 	</section>
 
 	<section id="libraries">
 		<div class="row">
-			libs
+			libraries
 		</div>
 	</section>
 
