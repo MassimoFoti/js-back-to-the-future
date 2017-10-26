@@ -6,7 +6,7 @@
 	jsBack.Controller = function(options){
 
 		var config = {
-			pageSwitcher: undefined
+			sectionSwitcher: undefined
 		};
 		luga.merge(config, options);
 
@@ -27,19 +27,18 @@
 			router.resolve(router.normalizeHash(location.hash));
 		};
 
-		var resolveRoute = function(){
-
+		/**
+		 * @param {luga.router.routeContext} context
+		 */
+		var resolveRoute = function(context){
+			config.sectionSwitcher.displaySection(context.params.section);
 		};
 
 		var resolveCatchAllRoute = function(){
-
+			config.sectionSwitcher.displayDefault();
 		};
 
 		init();
 	};
 
 }());
-
-
-
-

@@ -14,6 +14,14 @@
 
 		};
 
+		this.displaySection = function(sectionId) {
+			console.debug("displaySection: " + sectionId)
+		};
+
+		this.displayDefault = function() {
+			console.debug("displayDefault")
+		};
+
 		init();
 
 	};

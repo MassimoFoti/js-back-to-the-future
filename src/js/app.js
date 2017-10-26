@@ -8,9 +8,9 @@
 	}
 
 	jQuery(document).ready(function(){
-		var sectionSwitcher = new jsBack.SectionSwitcher();
+		var switcher = new jsBack.SectionSwitcher({});
 		new jsBack.Controller({
-			pageSwitcher: sectionSwitcher
+			sectionSwitcher: switcher
 		});
 	});
 
