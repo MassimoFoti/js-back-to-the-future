@@ -23,7 +23,7 @@
 		formatter: feedDateFormatter
 	});
 
-	libsDataset = new luga.data.JsonDataSet({
+	var libsDataset = new luga.data.JsonDataSet({
 		uuid: "libsDs",
 		url: "data/libraries.json"
 	});
