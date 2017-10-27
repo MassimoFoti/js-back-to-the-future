@@ -17,21 +17,21 @@
 		return row;
 	};
 
-	var rssDataset = new luga.data.Rss2Dataset({
+	var rssDataSet = new luga.data.Rss2Dataset({
 		uuid: "feedDs",
 		url: "feed/heshootshescoores.com.xml",
 		formatter: feedDateFormatter
 	});
 
-	var libsDataset = new luga.data.JsonDataSet({
+	var libsDataSet = new luga.data.JsonDataSet({
 		uuid: "libsDs",
 		url: "data/libraries.json"
 	});
 
 	jQuery(document).ready(function(){
 
-		rssDataset.loadData();
-		libsDataset.loadData();
+		rssDataSet.loadData();
+		libsDataSet.loadData();
 
 		var switcher = new jsBack.SectionSwitcher({
 			sectionSelector: "#content section",
