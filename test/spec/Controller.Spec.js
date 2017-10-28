@@ -49,9 +49,11 @@ describe("jsBack.Controller", function(){
 			spyOn(spiedRouter, "start").and.callThrough();
 			spyOn(spiedRouter, "resolve").and.callThrough();
 
+			// Spy the constructor to return the spied router
+			spyOn(luga.router, "Router").and.returnValue(spiedRouter);
+
 			new jsBack.Controller({
-				sectionSwitcher: mockSwitcher,
-				router: spiedRouter
+				sectionSwitcher: mockSwitcher
 			});
 
 		});

@@ -28,11 +28,9 @@
 			sectionSelector: "#content section",
 			defaultSectionId: "home"
 		});
-		var router = new luga.router.Router();
 
 		new jsBack.Controller({
-			sectionSwitcher: switcher,
-			router: router
+			sectionSwitcher: switcher
 		});
 
 	});

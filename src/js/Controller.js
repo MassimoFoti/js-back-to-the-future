@@ -6,21 +6,22 @@
 	jsBack.Controller = function(options){
 
 		var config = {
-			sectionSwitcher: undefined,
-			router: new luga.router.Router()
+			sectionSwitcher: undefined
 		};
 		luga.merge(config, options);
+
+		var router = new luga.router.Router();
 
 		var init = function(){
 			initRouter();
 		};
 
 		var initRouter = function(){
-			config.router.add("{section}", resolveRoute);
-			config.router.add(":catchall:", resolveCatchAllRoute);
-			config.router.start();
+			router.add("{section}", resolveRoute);
+			router.add(":catchall:", resolveCatchAllRoute);
+			router.start();
 			// Programmatically trigger the Router on page load
-			config.router.resolve(config.router.normalizeHash(location.hash));
+			router.resolve(router.normalizeHash(location.hash));
 		};
 
 		/**
