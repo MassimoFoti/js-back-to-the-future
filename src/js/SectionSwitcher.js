@@ -13,7 +13,7 @@
 	luga.namespace("jsBack");
 
 	/**
-	 * A simple widget to turn on/off section/pages in the current page
+	 * A simple widget to turn on/off sections inside the current page
 	 * @param {jsBack.SectionSwitcher.options} options
 	 * @constructor
 	 */
@@ -34,6 +34,8 @@
 
 		var init = function(){
 			populateMap();
+			hideAll();
+			self.displayDefault();
 		};
 
 		var populateMap = function(){
@@ -48,6 +50,13 @@
 		};
 
 		/**
+		 * Display the default section
+		 */
+		this.displayDefault = function(){
+			self.displaySection(config.defaultSectionId);
+		};
+
+		/**
 		 * Turn-off all the section and display the one with id matching the given parameter
 		 * If the given id does not matches any of the current sections, it fails silently
 		 * @param {String} sectionId
@@ -59,13 +68,6 @@
 				hideAll();
 				targetSection.show();
 			}
-		};
-
-		/**
-		 * Display the default section
-		 */
-		this.displayDefault = function(){
-			self.displaySection(config.defaultSectionId);
 		};
 
 		init();
