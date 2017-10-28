@@ -40,7 +40,7 @@ describe("jsBack.Controller", function(){
 		expect(mockSwitcher.displaySection).toHaveBeenCalledWith("first");
 	});
 
-	describe("Use a luga router", function(){
+	describe("Contain an instance of a router", function(){
 
 		var spiedRouter;
 		beforeEach(function(){
@@ -56,7 +56,7 @@ describe("jsBack.Controller", function(){
 
 		});
 
-		it("Contains 2 routes", function(){
+		it("Manage 2 routes", function(){
 			expect(spiedRouter.getAll().length).toEqual(2);
 		});
 
