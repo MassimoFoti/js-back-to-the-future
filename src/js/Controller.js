@@ -7,7 +7,7 @@
 
 		var config = {
 			sectionSwitcher: undefined,
-			router: new luga.router.Router
+			router: new luga.router.Router()
 		};
 		luga.merge(config, options);
 
