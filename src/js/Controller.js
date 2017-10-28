@@ -1,10 +1,24 @@
+/**
+ * @typedef {Object} jsBack.Controller.options
+ *
+ * @property {jsBack.SectionSwitcher} sectionSwitcher
+ */
+
 (function(){
 	"use strict";
 
 	luga.namespace("jsBack");
 
+	/**
+	 * Minimalist controller for demo app
+	 * @param {jsBack.Controller.options} options
+	 * @constructor
+	 */
 	jsBack.Controller = function(options){
 
+		/**
+		 * @type {jsBack.Controller.options}
+		 */
 		var config = {
 			sectionSwitcher: undefined
 		};
