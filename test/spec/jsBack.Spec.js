@@ -16,7 +16,7 @@ describe("jsBack", function(){
 			expect(Handlebars).toBeDefined();
 		});
 
-		it("Luga JS", function(){
+		it("Luga Common", function(){
 			expect(luga).toBeDefined();
 		});
 
