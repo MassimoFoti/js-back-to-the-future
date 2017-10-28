@@ -25,6 +25,7 @@ module.exports = function(config){
 
 			// Source files
 			// Some of these must be loaded in aspecific order
+			"src/js/utils.js",
 			"src/**/*.js",
 
 			// Jasmine custom matcher. Requires Luga
