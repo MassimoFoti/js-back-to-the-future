@@ -70,5 +70,23 @@
     "url": "https://github.com/janl/mustache.js",
     "category": "templating",
     "description": "Makes Mustache syntax available in JavaScript"
+  },
+  {
+    "name": "Moment.js",
+    "url": "http://momentjs.com/",
+    "category": "utilities",
+    "description": "Parse, validate, manipulate, and display dates and times"
+  },
+  {
+    "name": "accounting.js",
+    "url": "http://openexchangerates.github.io/accounting.js/",
+    "category": "utilities",
+    "description": "Simple and advanced number, money and currency formatting"
+  },
+  {
+    "name": "axios",
+    "url": "https://github.com/axios/axios",
+    "category": "utilities",
+    "description": "Promise based HTTP client for the browser and node.js"
   }
 ]
