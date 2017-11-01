@@ -72,6 +72,12 @@
     "description": "Makes Mustache syntax available in JavaScript"
   },
   {
+    "name": "Nunjucks",
+    "url": "http://mozilla.github.io/nunjucks/",
+    "category": "templating",
+    "description": "Powerful templating language with block inheritance, autoescaping, macros, asynchronous control, and more"
+  },
+  {
     "name": "Moment.js",
     "url": "http://momentjs.com/",
     "category": "utilities",
