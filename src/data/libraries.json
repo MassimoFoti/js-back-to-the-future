@@ -78,9 +78,15 @@
     "description": "Powerful templating language with block inheritance, autoescaping, macros, asynchronous control, and more"
   },
   {
+    "name": "date-fns",
+    "url": "https://date-fns.org/",
+    "category": "date handling",
+    "description": "Toolset for manipulating JavaScript dates in a browser & Node.js"
+  },
+  {
     "name": "Moment.js",
     "url": "http://momentjs.com/",
-    "category": "utilities",
+    "category": "date handling",
     "description": "Parse, validate, manipulate, and display dates and times"
   },
   {
