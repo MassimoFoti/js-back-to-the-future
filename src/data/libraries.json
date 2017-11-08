@@ -48,6 +48,12 @@
     "description": "Lightweight but powerful. Integrates well with Crossroads.js"
   },
   {
+    "name": "Immutable.js",
+    "url": "https://facebook.github.io/immutable-js/",
+    "category": "utils",
+    "description": "Immutable collections for JavaScript"
+  },
+  {
     "name": "Lodash",
     "url": "https://lodash.com/",
     "category": "utils",
