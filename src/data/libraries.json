@@ -36,12 +36,6 @@
     "description": "Data binding + templating inside a single package"
   },
   {
-    "name": "Taffy DB",
-    "url": "http://taffydb.com/",
-    "category": "data",
-    "description": "Fascinating idea, brings database features into JavaScript"
-  },
-  {
     "name": "Hasher",
     "url": "https://github.com/millermedeiros/Hasher",
     "category": "history",
