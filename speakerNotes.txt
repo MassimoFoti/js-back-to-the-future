@@ -1,0 +1,55 @@
+- Hello everybody, greeting from Appway. Glad to see old friends
+- Ask audience: frameworks vs no. Which framework: Angular, React, Vue, Cycle? jQuery: yes/no
+
+TITLE:
+- There must be a way in between
+  I want to reflect a bit on the implications of using frameworks, maybe spark a debate
+- I just wanted to fetch some data from a JSON file
+
+THE STORY:
+- At Appway we use no frameworks
+- I need to do something simple, a poor man SPA and fetch some data from JSON
+- I asked my friends Lorenzo and Luca. And they suggested a huge toolstack!!!
+  Show the suggestion
+  Men, I just need to do something simple, display the data and call it done!
+
+WHAT I NEEDED:
+- Simple databinding/templating
+- Ability to read data from JSON and RSS
+- Routing
+- Glue code to bring all together
+- Proper unit tests
+
+WHAT I DID, WITH WHAT:
+- Handlebars/Luga Data
+- Luga Router
+- Some jQuery as library, plus dead-simple UI
+- A bit of Boostrap out of laziness
+- Jasmine for testing, 100% code coverage. Had to use Gulp/Karma for coverage
+
+WHAT I DID NOT:
+- Concatenate/minify (dead simple with Gulp or similar)
+- The UI would not scale
+
+LOOK AT INTERESTING LIBRARIES:
+- Read the list, ask the audience and expand the discussion
+- Check who knows and use which library
+- Implications of using library. Less dependency, more ad-hoc, more bus-factor
+
+FRAMEWORK CRAZYNESS:
+- This is not the first time
+- We had this in the past: 
+  Dojo, YUI, Closure, Prototype/Scriptaculous, Mochikit!
+  The MVC: Ember, Backbone, Knockout, Angular
+  The reactive: React, Vue, Cycle
+- Is transpiling the way to go? Who use it?
+
+FINAL REMARKS:
+- Code is on Github, for what's worth
+- It's not the code, is the question
+- IT world is driven by fashion. Be careful
+
+ASK THE AUDIENCE:
+- Do you want to talk about routing in JavaScript?
+- What about a full-day training/workshop on unit testing with Jasmine?
+  Saturday morning at Appway in Chiasso
