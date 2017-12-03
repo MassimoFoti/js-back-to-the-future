@@ -1,5 +1,8 @@
 - Hello everybody, greeting from Appway. Glad to see old friends
-- Ask audience: frameworks vs no. Which framework: Angular, React, Vue, Cycle? jQuery: yes/no
+- Ask audience:
+  frameworks vs no.
+  Which framework: Angular, React, Vue, Cycle?
+  jQuery: yes/no?
 
 TITLE:
 - There must be a way in between
@@ -10,7 +13,7 @@ THE STORY:
 - At Appway we use no frameworks
 - I need to do something simple, a poor man SPA and fetch some data from JSON
 - I asked my friends Lorenzo and Luca. And they suggested a huge toolstack!!!
-  Show the suggestion
+  Show the suggestions
   Men, I just need to do something simple, display the data and call it done!
 
 WHAT I NEEDED:
