@@ -1,6 +1,7 @@
 /**
  * @typedef {Object} jsBack.SectionSwitcher.options
  *
+ * @property {jQuery} [jQuery("body")]        root              jQuery element to be used as root node. Default to jQuery("body")
  * @property {String} ["section"]             sectionSelector   jQuery selector to collect all the sections.
  *                                                              Default to "section"
  * @property {defaultSectionId} [undefined"]  defaultSectionId  Id as a string.
@@ -23,6 +24,7 @@
 		 * @type {jsBack.SectionSwitcher.options}
 		 */
 		var config = {
+			root: jQuery("body"),
 			sectionSelector: "section",
 			defaultSectionId: undefined
 		};
@@ -39,14 +41,14 @@
 		};
 
 		var populateMap = function(){
-			jQuery(config.sectionSelector).each(function(index){
+			config.root.find(config.sectionSelector).each(function(index){
 				var jSection = $(this);
 				sectionsMap[jSection.attr("id")] =  jSection;
 			});
 		};
 
 		var hideAll = function(){
-			jQuery(config.sectionSelector).hide();
+			config.root.find(config.sectionSelector).hide();
 		};
 
 		/**
