@@ -1,4 +1,3 @@
-- Hello everybody, greeting from Appway. Glad to see old friends
 - Ask audience:
   frameworks vs no.
   Which framework: Angular, React, Vue, Cycle?
@@ -10,7 +9,6 @@ TITLE:
 - I just wanted to fetch some data from a JSON file
 
 THE STORY:
-- At Appway we use no frameworks
 - I need to do something simple, a poor man SPA and fetch some data from JSON
 - I asked my friends Lorenzo and Luca. And they suggested a huge toolstack!!!
   Show the suggestions
@@ -39,7 +37,7 @@ LOOK AT INTERESTING LIBRARIES:
 - Check who knows and use which library
 - Implications of using library. Less dependency, more ad-hoc, more bus-factor
 
-FRAMEWORK CRAZYNESS:
+FRAMEWORK CRAZINESS:
 - This is not the first time
 - We had this in the past: 
   Dojo, YUI, Closure, Prototype/Scriptaculous, Mochikit!
@@ -51,8 +49,3 @@ FINAL REMARKS:
 - Code is on Github, for what's worth
 - It's not the code, is the question
 - IT world is driven by fashion. Be careful
-
-ASK THE AUDIENCE:
-- Do you want to talk about routing in JavaScript?
-- What about a full-day training/workshop on unit testing with Jasmine?
-  Saturday morning at Appway in Chiasso
