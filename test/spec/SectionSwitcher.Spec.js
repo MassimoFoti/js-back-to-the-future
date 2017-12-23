@@ -3,7 +3,10 @@ describe("jsBack.SectionSwitcher", function(){
 	"use strict";
 
 	beforeEach(function(){
-		loadFixtures("sections.htm");
+		jasmineFixtures.setup({
+			basePath: FIXTURES_BASE_PATH
+		});
+		jasmineFixtures.loadHTML("sections.htm");
 	});
 
 	it("Is a simple widget to turn on/off sections inside the current page", function(){

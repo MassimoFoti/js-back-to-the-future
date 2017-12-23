@@ -18,9 +18,13 @@ module.exports = function(config){
 			"lib/luga/luga.data.min.js",
 			"lib/luga/luga.router.min.js",
 
-			// Jasmine libs and configuration
+			// Jasmine libs
 			"test/lib/jasmine/jasmine-jquery.js",
+
+			"test/lib/jasmine/jasmineFixtures.min.js",
 			"test/lib/jasmine/mock-ajax.js",
+
+			// Config
 			"test/fixtures.karma.config.js",
 
 			// Source files

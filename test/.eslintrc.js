@@ -1,4 +1,4 @@
-/* eslint-env node */
+/* global module */
 module.exports = {
 
 	// Enable Jasmine environment
@@ -6,11 +6,9 @@ module.exports = {
 		jasmine: true
 	},
 
-	// Add Jasmine globals
+	// Globals
 	globals: {
-		loadFixtures: false,
-		readFixtures: false,
-		getJSONFixture: false,
-		spyOnEvent: false
+		"jasmineFixtures": false,
+		"FIXTURES_BASE_PATH": false
 	}
 };
