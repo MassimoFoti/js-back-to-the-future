@@ -1,1 +1,6 @@
-var FIXTURES_BASE_PATH = "fixtures";
+beforeEach(function(){
+	"use strict";
+	jasmineFixtures.setup({
+		basePath: "fixtures"
+	});
+});
