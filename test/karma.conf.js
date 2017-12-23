@@ -31,9 +31,6 @@ module.exports = function(config){
 			"src/js/utils.js",
 			"src/**/*.js",
 
-			// Jasmine custom matcher. Requires Luga
-			"test/lib/jasmine/jasmine-ducktype.js",
-
 			// Test specs
 			"test/spec/*.Spec.js",
 			"test/spec/**/*.Spec.js",
