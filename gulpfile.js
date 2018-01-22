@@ -12,6 +12,6 @@ var karmaServer = require("karma").Server;
 gulp.task("coverage", function(done){
 	// Use Karma only for the sake of producing a code coverage report
 	new karmaServer({
-		configFile: __dirname + "/karma.conf.js"
+		configFile: __dirname + "/test/karma.conf.js"
 	}, done).start();
 });

@@ -1,5 +1,4 @@
 node_modules/
-test/node_modules/
 test/coverage
 test/**/TEST-AllTests.xml
 karma_html/
