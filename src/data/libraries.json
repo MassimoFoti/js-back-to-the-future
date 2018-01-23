@@ -1,104 +1,62 @@
 [
   {
-    "name": "Luga Router",
-    "url": "https://github.com/lugajs/luga-router",
-    "category": "routing",
-    "description": "Pure routing and nothing else. Highly customizable. Unfinished docs at the moment"
+    "name": "Jasmine",
+    "url": "https://jasmine.github.io/",
+    "category": "framework",
+    "description": "JavaScript testing framework for browsers and node.js"
   },
   {
-    "name": "Crossroads.js",
-    "url": "https://millermedeiros.github.io/crossroads.js/",
-    "category": "routing",
-    "description": "Client-side routing, features-rich"
+    "name": "jasmine-ajax",
+    "url": "https://github.com/jasmine/jasmine-ajax",
+    "category": "plugin",
+    "description": "A library for mocking XHR responses in your Jasmine suite"
   },
   {
-    "name": "Director",
-    "url": "https://github.com/flatiron/director",
-    "category": "routing",
-    "description": "Isomorphic router"
+    "name": "jasmine-jquery",
+    "url": "https://github.com/velesin/jasmine-jquery",
+    "category": "matchers",
+    "description": "jQuery matchers and fixture loader for Jasmine (not mantained!)"
   },
   {
-    "name": "page",
-    "url": "https://github.com/visionmedia/page.js",
-    "category": "routing",
-    "description": "Micro client-side router"
+    "name": "jasmine-utils",
+    "url": "https://github.com/mjeanroy/jasmine-utils",
+    "category": "matchers",
+    "description": "Set of custom matchers for Jasmine Test Framework"
   },
   {
-    "name": "Luga Data",
-    "url": "http://lugajs.org/docs/index.htm#data/index",
-    "category": "data and binding",
-    "description": "Data-centric, designed to retrieve data from diverse sources"
+    "name": "Jasmine-Matchers",
+    "url": "https://github.com/JamieMason/Jasmine-Matchers",
+    "category": "matchers",
+    "description": "A huge library of test matchers for Jasmine and Jest"
   },
   {
-    "name": "Rivets.js",
-    "url": "http://rivetsjs.com/",
-    "category": "data and binding",
-    "description": "Data binding + templating inside a single package"
+    "name": "jasmineFixtures",
+    "url": "https://github.com/MassimoFoti/jasmineFixtures",
+    "category": "plugin",
+    "description": "Add fixture capabilities to Jasmine"
   },
   {
-    "name": "Hasher",
-    "url": "https://github.com/millermedeiros/Hasher",
-    "category": "history",
-    "description": "Lightweight but powerful. Integrates well with Crossroads.js"
+    "name": "jasmineMatchers",
+    "url": "https://github.com/MassimoFoti/jasmineMatchers",
+    "category": "matchers",
+    "description": "jQuery-based custom matchers for Jasmine"
   },
   {
-    "name": "Immutable.js",
-    "url": "https://facebook.github.io/immutable-js/",
-    "category": "utils",
-    "description": "Immutable collections for JavaScript"
+    "name": "jasmineTree",
+    "url": "https://github.com/MassimoFoti/jasmineTree",
+    "category": "reporter",
+    "description": "An add-on for Jasmine's HTML Reporter. With expand/collapse buttons and some cool CSS"
   },
   {
-    "name": "Lodash",
-    "url": "https://lodash.com/",
-    "category": "utils",
-    "description": "A more modern alternative to Underscore.js. Much larger in size"
+    "name": "Karma",
+    "url": "https://karma-runner.github.io/",
+    "category": "test runner",
+    "description": "Test Runner for JavaScript"
   },
   {
-    "name": "Underscore.js",
-    "url": "http://underscorejs.org/",
-    "category": "utils",
-    "description": "A classic. Nowadays I would consider Lodash instead"
-  },
-  {
-    "name": "Handlebarsjs",
-    "url": "http://handlebarsjs.com/",
-    "category": "templating",
-    "description": "Powerful, popular yet massive"
-  },
-  {
-    "name": "Mustache.js",
-    "url": "https://github.com/janl/mustache.js",
-    "category": "templating",
-    "description": "Makes Mustache syntax available in JavaScript"
-  },
-  {
-    "name": "Nunjucks",
-    "url": "http://mozilla.github.io/nunjucks/",
-    "category": "templating",
-    "description": "Powerful templating language with block inheritance, autoescaping, macros, asynchronous control, and more"
-  },
-  {
-    "name": "date-fns",
-    "url": "https://date-fns.org/",
-    "category": "date handling",
-    "description": "Toolset for manipulating JavaScript dates in a browser & Node.js"
-  },
-  {
-    "name": "Moment.js",
-    "url": "http://momentjs.com/",
-    "category": "date handling",
-    "description": "Parse, validate, manipulate, and display dates and times"
-  },
-  {
-    "name": "accounting.js",
-    "url": "http://openexchangerates.github.io/accounting.js/",
-    "category": "utilities",
-    "description": "Simple and advanced number, money and currency formatting"
-  },
-  {
-    "name": "axios",
-    "url": "https://github.com/axios/axios",
-    "category": "utilities",
-    "description": "Promise based HTTP client for the browser and node.js"
+    "name": "Istanbul",
+    "url": "https://istanbul.js.org/",
+    "category": "test coverage",
+    "description": "JavaScript test coverage made simple"
   }
 ]
