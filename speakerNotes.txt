@@ -22,10 +22,19 @@ WHY WE TEST:
 - Narrow the mental focus by giving devs a "safety net"
 - Reduce the cost of context switch
 
+- Untestable code is just lame excuse. Refactor it!
+- Trust me, testable code is better code
+
+- It's hard work
+- It takes months before see the benefits
+
+- Would you write code without version control?
+  Then why you write code without unit tests?
+
 
 BBD:
 - Cucumber, anyone?
-- BDD and all that jazz
+- BDD and all that jazz, mostly a failure, what's left?
 
 - Describe test as you are talking to the guy sitting next to you
   You talk to humans, not computers
@@ -61,12 +70,19 @@ EXERCISES:
   $first.second.thrird[1] -> first second third 1
 
 
+WHEN TO WRITE TESTS?
+- Before, during, after?
+- Don't wait too long!
+- If you can write the API on a whiteborad, you can TDD
+- Always TDD bug fixes!
+
+
 ADVANCED:
 - SetUp/TearDown beforeEach/afterEach
 - Spies
-  With spies you test the single unit
-  Controller.Spec.js Spies and Mocks
-  Mayn bugs hide at the boundaries
+- With spies you test the single unit
+- Controller.Spec.js Spies and Mocks
+- Mayn bugs hide at the boundaries
 
 - Do we need mock libraries?
 
@@ -77,7 +93,8 @@ FIXTURES:
 - luga.form.toQueryString()
 - loadFixture() vs readFixture()
 - jasmineFixtures vs jasmine-jquery
-- Limitation of fixtures vs live output from server
+- Limitation of JSON fixtures vs live output from server
+- Fixtures need to be up to date
 
 
 CODE COVERAGE:
