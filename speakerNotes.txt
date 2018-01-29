@@ -82,7 +82,7 @@ ADVANCED:
 - Spies
 - With spies you test the single unit
 - Controller.Spec.js Spies and Mocks
-- Mayn bugs hide at the boundaries
+- Many bugs hide at the boundaries
 
 - Do we need mock libraries?
 
@@ -105,12 +105,18 @@ CODE COVERAGE:
 
 THE ECOSYSTEM:
 - A list of useful links
-- Plain HTML runner vs Karma
+- Plain HTML runner vs Karma. IDE integration
 - Karma
 - JUnit xml reports for CI
 - Additional matchers
 - jasmine-ajax
 - Browserstack and multiple browsers
+- Karma config:
+  order of loading
+  "base" prefix
+  serving fixtures
+  reportrs
+  autowatch
 
 
 FINAL REMARKS:
