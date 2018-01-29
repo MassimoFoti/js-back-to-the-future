@@ -65,9 +65,11 @@ WIZARD AS EXAMPLE:
 - Limitations with keyboad and focus/blur
 
 
-EXERCISES:
-- String manipulation TDD
-  $first.second.thrird[1] -> first second third 1
+TDD EXERCISE:
+- String manipulation $first.second.thrird[1] -> first second third 1
+- Do the simplest thing
+- Refactor only at the end!
+- Compare implementations
 
 
 WHEN TO WRITE TESTS?
