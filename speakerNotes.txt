@@ -17,7 +17,7 @@ ASK THE AUDIENCE:
 WHY WE TEST:
 - Avoid regressions
 - Consume your own API
-- Ruthlessy refactor
+- Ruthlessly refactor
 - Avoid "don't touch the legacy mess" situations
 - Narrow the mental focus by giving devs a "safety net"
 - Reduce the cost of context switch
@@ -105,7 +105,8 @@ CODE COVERAGE:
 
 THE ECOSYSTEM:
 - A list of useful links
-- Plain HTML runner vs Karma. IDE integration
+- Plain HTML runner vs Karma
+- IDE integration
 - Karma
 - JUnit xml reports for CI
 - Additional matchers
@@ -115,7 +116,7 @@ THE ECOSYSTEM:
   order of loading
   "base" prefix
   serving fixtures
-  reportrs
+  reporters
   autowatch
 
 
