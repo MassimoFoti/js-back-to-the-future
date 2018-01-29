@@ -1,51 +1,106 @@
-- Ask audience:
-  frameworks vs no.
-  Which framework: Angular, React, Vue, Cycle?
-  jQuery: yes/no?
 
-TITLE:
-- There must be a way in between
-  I want to reflect a bit on the implications of using frameworks, maybe spark a debate
-- I just wanted to fetch some data from a JSON file
+PREPARATION:
+- Clone from Git
+- Install Node.js
+- NPM install
 
-THE STORY:
-- I need to do something simple, a poor man SPA and fetch some data from JSON
-- I asked my friends Lorenzo and Luca. And they suggested a huge toolstack!!!
-  Show the suggestions
-  Men, I just need to do something simple, display the data and call it done!
 
-WHAT I NEEDED:
-- Simple databinding/templating
-- Ability to read data from JSON and RSS
-- Routing
-- Glue code to bring all together
-- Proper unit tests
+ASK THE AUDIENCE:
+- Do you write unit test in JavaScript?
+- Experience in unit testing on other languages?
+- Which framework: Jasmine, Mocha, Jest?
+- Jasmine is just a tool, the lessons will apply to others too. Syntax is similar
+   
+- Ask questions anytime. Assistants are here to help
 
-WHAT I DID, WITH WHAT:
-- Handlebars/Luga Data
-- Luga Router
-- Some jQuery as library, plus dead-simple UI
-- A bit of Boostrap out of laziness
-- Jasmine for testing, 100% code coverage. Had to use Gulp/Karma for coverage
 
-WHAT I DID NOT:
-- Concatenate/minify (dead simple with Gulp or similar)
-- The UI would not scale
+WHY WE TEST:
+- Avoid regressions
+- Consume your own API
+- Ruthlessy refactor
+- Avoid "don't touch the legacy mess" situations
+- Narrow the mental focus by giving devs a "safety net"
+- Reduce the cost of context switch
 
-LOOK AT INTERESTING LIBRARIES:
-- Read the list, ask the audience and expand the discussion
-- Check who knows and use which library
-- Implications of using library. Less dependency, more ad-hoc, more bus-factor
 
-FRAMEWORK CRAZINESS:
-- This is not the first time
-- We had this in the past: 
-  Dojo, YUI, Closure, Prototype/Scriptaculous, Mochikit!
-  The MVC: Ember, Backbone, Knockout, Angular
-  The reactive: React, Vue, Cycle
-- Is transpiling the way to go? Who use it?
+BBD:
+- Cucumber, anyone?
+- BDD and all that jazz
+
+- Describe test as you are talking to the guy sitting next to you
+  You talk to humans, not computers
+  A good story is more tha just a test, it documents and last in memory
+
+- An hole in the story means an hole in the test
+  An hole in JUnit is hard to spot instead
+
+- Narrative tests. The importance of story telling
+- Tests are code samples too
+- Useful "live" documentation
+
+
+EXAMPLES:
+- luga.string.format()
+
+
+WIZARD AS EXAMPLE:
+
+- Testing the GUI, not only the logic. How far we can/should go?
+- Quick Wizard's demo
+- Explain Wizard/Step relationship
+- Testing menus and buttons
+- Testing DOM elements and CSS classes
+- Testing events (onclick etc)
+- Jasmine vs Selenium
+
+- Limitations with keyboad and focus/blur
+
+
+EXERCISES:
+- String manipulation TDD
+  $first.second.thrird[1] -> first second third 1
+
+
+ADVANCED:
+- SetUp/TearDown beforeEach/afterEach
+- Spies
+  With spies you test the single unit
+  Controller.Spec.js Spies and Mocks
+  Mayn bugs hide at the boundaries
+
+- Do we need mock libraries?
+
+- Use xdescribe
+
+
+FIXTURES:
+- luga.form.toQueryString()
+- loadFixture() vs readFixture()
+- jasmineFixtures vs jasmine-jquery
+- Limitation of fixtures vs live output from server
+
+
+CODE COVERAGE:
+- Infrastructure: Karma, Instanbul
+- It's just a number, required but not sufficient
+- Try to reach 100% may be a worth learning exercise
+
+
+THE ECOSYSTEM:
+- A list of useful links
+- Plain HTML runner vs Karma
+- Karma
+- JUnit xml reports for CI
+- Additional matchers
+- jasmine-ajax
+- Browserstack and multiple browsers
+
 
 FINAL REMARKS:
+- Quick round of feedback
 - Code is on Github, for what's worth
-- It's not the code, is the question
-- IT world is driven by fashion. Be careful
+- Luga JS is worth looking for examples
+
+- A place to talk for Frontenders Ticino?
+
+
