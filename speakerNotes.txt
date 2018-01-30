@@ -26,7 +26,7 @@ WHY WE TEST:
 - Trust me, testable code is better code
 
 - It's hard work
-- It takes months before see the benefits
+- It may take months before you see the benefits
 
 - Would you write code without version control?
   Then why you write code without unit tests?
@@ -82,9 +82,11 @@ WHEN TO WRITE TESTS?
 ADVANCED:
 - SetUp/TearDown beforeEach/afterEach
 - Spies
-- With spies you test the single unit
-- Controller.Spec.js Spies and Mocks
-- Many bugs hide at the boundaries
+  With spies you test the single unit
+  Controller.Spec.js Spies and Mocks
+  Many bugs hide at the boundaries
+  Embrace inversion of control
+  Anonymous functions make tests much harder
 
 - Do we need mock libraries?
 
