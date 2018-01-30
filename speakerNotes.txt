@@ -62,7 +62,7 @@ WIZARD AS EXAMPLE:
 - Testing events (onclick etc)
 - Jasmine vs Selenium
 
-- Limitations with keyboad and focus/blur
+- Limitations with keyboard and focus/blur
 
 
 TDD EXERCISE:
@@ -91,6 +91,7 @@ ADVANCED:
 - Do we need mock libraries?
 
 - Use xdescribe
+- Read Jasmine docs in deep
 
 
 FIXTURES:
