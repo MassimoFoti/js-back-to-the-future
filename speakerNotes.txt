@@ -25,6 +25,8 @@ WHY WE TEST:
 - Narrow the mental focus by giving devs a "safety net"
 - Reduce the cost of context switch
 
+- If code has no test it escapes your control
+
 - Untestable code is just lame excuse. Refactor it!
 - Trust me, testable code is better code
 
