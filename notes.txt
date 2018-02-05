@@ -1,0 +1,13 @@
+var patternSimple = /\[(.*)\]$/;
+
+var patternHell = /\[([^\[]*?)\]$/;
+
+var patternMagic = /\[(\w*)\]$/;
+
+"first[0]".replace(patternSimple, " $1") => first 0;
+
+"fi[1]rst[0]".replace(patternSimple, " $1") => fi 1]rst[0 !!!???
+
+"fi[1]rst[0]".replace(patternHell, " $1") => fi[1]rst 0
+
+"fi[1]rst[0]".replace(patternMagic, " _$1") => fi[1]rst 0
