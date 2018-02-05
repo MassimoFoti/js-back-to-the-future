@@ -17,8 +17,9 @@ ASK THE AUDIENCE:
 WHY WE TEST:
 - Avoid regressions
 - Consume your own API
-- Ruthlessly refactor
 - Avoid "don't touch the legacy mess" situations
+- Ruthlessly refactor
+  There is no quality without refactoring, there is no refactoring without unit tests
 - Narrow the mental focus by giving devs a "safety net"
 - Reduce the cost of context switch
 
@@ -79,27 +80,31 @@ WHEN TO WRITE TESTS?
 - Always TDD bug fixes!
 
 
-ADVANCED:
-- SetUp/TearDown beforeEach/afterEach
-- Spies
-  With spies you test the single unit
-  Controller.Spec.js Spies and Mocks
-  Many bugs hide at the boundaries
-  Embrace inversion of control
-  Anonymous functions make tests much harder
-
-- Do we need mock libraries?
-
-- Use xdescribe
-- Read Jasmine docs in deep
-
-
 FIXTURES:
 - luga.form.toQueryString()
 - loadFixture() vs readFixture()
 - jasmineFixtures vs jasmine-jquery
 - Limitation of JSON fixtures vs live output from server
 - Fixtures need to be up to date
+
+
+ADVANCED:
+- SetUp/TearDown beforeEach/afterEach
+- Spies
+  With spies you test the single unit
+  Many bugs hide at the boundaries
+- Embrace inversion of control
+- Do we need mock libraries?
+- Controller.Spec.js Spies and Mocks
+  Mock injected: mockSwitcher
+  Mock constructor: spiedRouter
+
+- Anonymous functions make tests much harder
+
+- Use xdescribe
+- Read Jasmine docs in deep
+
+- What to test? Test the contract (that may include generated DOM)
 
 
 CODE COVERAGE:
@@ -130,6 +135,7 @@ FINAL REMARKS:
 - Code is on Github, for what's worth
 - Luga JS is worth looking for examples
 
+- Topics for future workshops?
+  Replay Jasmine or do something different?
+
 - A place to talk for Frontenders Ticino?
-
-
