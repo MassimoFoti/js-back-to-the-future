@@ -1,8 +1,10 @@
 
 PREPARATION:
-- Clone from Git
+- Clone from Git inside a web directory
 - Install Node.js
 - NPM install
+- Install Gulp
+- Run: gulp coverage and check results
 
 
 ASK THE AUDIENCE:
