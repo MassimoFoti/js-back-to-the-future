@@ -87,7 +87,7 @@ WHEN TO WRITE TESTS?
 FIXTURES:
 - luga.form.toQueryString()
 - loadFixture() vs readFixture()
-- jasmineFixtures vs jasmine-jquery
+- jasmineFixtures
 - Limitation of JSON fixtures vs live output from server
 - Fixtures need to be up to date
 

@@ -1,0 +1,9 @@
+first -> first
+$first -> first
+$first.second -> first second
+$first.second.third -> first second third
+$first.$econd -> first $econd
+first.$econd -> first $econd
+$first.second.third[1] -> first second third 1
+$first.second.third[1abc] -> first second third 1abc
+$first.se[cond].third[1abc] -> first se[cond] third 1abc
