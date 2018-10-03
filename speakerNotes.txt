@@ -110,6 +110,9 @@ ADVANCED:
 
 - What to test? Test the contract (that may include generated DOM)
 
+- Always test on real target browser
+  Don't trust Jest/jsdom
+
 
 CODE COVERAGE:
 - Infrastructure: Karma, Instanbul
